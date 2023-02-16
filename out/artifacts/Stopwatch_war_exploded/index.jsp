@@ -1,12 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-
 <html>
   <head>
     <title>스톱워치</title>
   </head>
   <body>
-
     <div>
       <div>
         <input id="record" type="button" value="LAP" />
@@ -24,16 +22,11 @@
         <span id="millisec">00</span>
       </div>
 
-
       <div>
         <span>--------------------------</span>
         <ul id="lapList"></ul>
       </div>
-
-
     </div>
-
-
 
     <script type="text/javascript">
 
@@ -83,7 +76,6 @@
 
       });
 
-
       document.getElementById('stop').addEventListener('click', function() {
         if(timerStart) {
           clearInterval(timerStart)
@@ -107,13 +99,6 @@
         }
       });
 
-
-
     </script>
-
-
-
   </body>
 </html>
-
-
